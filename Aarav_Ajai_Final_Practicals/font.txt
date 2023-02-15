@@ -1,0 +1,13 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+</style>
+
+
+
+------
+<script src="https://kit.fontawesome.com/ad3d736e76.js" crossorigin="anonymous"></script>
+
+
+<i class="fas fa-2x fa-backward"></i>
+<i class="fas fa-4x fa-circle-play"></i>
+<i class="fas fa-2x fa-forward"></i>

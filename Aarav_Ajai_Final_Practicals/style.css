@@ -1,0 +1,99 @@
+body{
+    background-image: url('balloon.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(12, 12, 12, 0.455);
+    background-blend-mode: multiply;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    font-family: 'Varela Round',sans-serif;
+}
+nav ul{
+    color: white;
+    background-color: rgba(255,255,255,0.091);
+    font-size: larger;
+    display: flex;
+    align-items: center;
+
+}
+nav ul li{
+    padding: 10px;
+}
+.brand{
+    font-weight: bolder;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+
+}
+.brand img{
+    width: 65px;
+    opacity: 0.7;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.container{
+    min-height: 62vh;
+    width: 60%;
+    margin: 23px auto;
+    background-color: rgba(255,255,255,0.091);
+    border-radius: 22px;
+    padding: 40px;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.091);
+    box-shadow: 0 40px 10px rgba(255,255,255,0.091);
+    height: 130px;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 60%;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.icons{
+    color: white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.songItem{
+    width: 55%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.091);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+
+}
+.songItem img{
+    width: 63px;
+    border-radius: 40px;
+    margin-left: 20px;
+
+}
+.timestamp{
+    margin: 80px;
+    cursor:pointer;
+}
+.songItemContainer{
+    margin-top: 50px;
+}
